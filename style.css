@@ -568,11 +568,21 @@ header {
 @media (max-width: 970px) {
     #menu-icon {
         display: block;
-    }
+    } }
 
-    @media (max-width: 640px) {
+    @media (max-width: 620px) {
         #menu-icon {
             display: block;
+        }
+
+        *:not(img) {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Jost', sans-serif;
+            list-style: none;
+            text-decoration: none;
+            scroll-behavior: smooth;
         }
 
 
