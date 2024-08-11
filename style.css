@@ -575,6 +575,7 @@ header {
             display: block;
         }
 
+
     .home {
         min-height: 80vh;
 
@@ -652,9 +653,13 @@ header {
         transition: .3s;
     }
 }
+
+
+
     @media (max-width: 540px) {
         .contact .action form input[type="email"] {
             width: 300px;
+            
         }
     }
     h1 {
@@ -706,6 +711,3 @@ header {
         top: 20px;
         left: 20px;
     }
-
-    
-
