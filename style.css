@@ -107,7 +107,7 @@ section {
     min-height: 90vh;
     height: 100%;
     width: 100%;
-    background: url(/background2.JPG);
+    background: url(/Norrlanda-Burs-727/background2.JPG);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -118,11 +118,11 @@ section {
 }
 
 .home-text h1 {
-    transform: translateY(-215px) translateX(-150px); /* Flyttar h1-elementet 215px uppåt och 150px till vänster */
+    transform: translateY(-115px) translateX(-10px); /* Flyttar h1-elementet 215px uppåt och 150px till vänster */
     margin: 0px 0px 25px;
     font-size: var(--big-font);
     color: var(--main-color);
-    line-height: 100px;
+    line-height: 50px;
     font-weight: 5000;
     text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000;
 }
@@ -650,5 +650,54 @@ header {
         .contact .action form input[type="email"] {
             width: 300px;
         }
+    }
+    h1 {
+        color: #333;
+    }
+    .image-gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-item {
+        margin: 20px 0;
+        border: 5px solid #333; /* Tydligare och markerad ram */
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Mer markerad skugga */
+        width: 100%;
+        max-width: 800px; /* Maximal bredd på 800px */
+        overflow: hidden;
+    }
+    .image-item img {
+        width: 100%;
+        height: auto;
+        max-height: 800px; /* Maximal höjd på 600px */
+        object-fit: cover;
+        border-bottom: 5px solid #333; /* Tydlig avgränsning mellan bild och bildtext */
+    }
+    .caption {
+        padding: 10px;
+        color: #555;
+        border-top: 5px solid #333; /* Ram runt bildtexten */
+        background-color: #f9f9f9;
+        font-size: 1.1em;
+    }
+    .back-link, .overview-link {
+        display: block;
+        margin-top: 20px;
+        text-decoration: none;
+        color: #333;
+        background-color: #ddd;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    .back-link:hover, .overview-link:hover {
+        background-color: #bbb;
+    }
+    .overview-link {
+        position: absolute;
+        top: 20px;
+        left: 20px;
     }
 
