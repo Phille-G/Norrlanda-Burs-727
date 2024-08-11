@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalender</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,400;1,500&display=swap" rel="stylesheet">
+    <style>
+        /* Background image */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('din_bakgrundsbild.jpg'); /* Byt ut till sökvägen för din bakgrundsbild */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Main content CSS */
+        .main-content {
+            margin-left: 20px; /* Ger plats för sidobaren */
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Lätt genomskinlig bakgrund för läsbarhet */
+            border-radius: 10px;
+            margin-top: 100px; /* Skapar avstånd från toppen så innehållet inte hamnar under navlistan */
+            text-align: center;
+        }
+
+        .main-content h1 {
+            color: #333;
+        }
+
+        /* Calendar CSS */
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            grid-gap: 10px;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.9); /* Lätt genomskinlig bakgrund för kalender */
+            border-radius: 10px;
+        }
+
+        .calendar div {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 1.2em;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .calendar .day-names {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul class="navlist">
+            <li><a href="index.html">Hem</a></li>
+            <li><a href="skotsel.html">Skötsel</a></li>
+            <li><a href="kalender.html">Kalender</a></li>
+            <li><a href="gotlandsveckan.html">Gotlandsveckan</a></li>
+            <li><a href="#contact">Historia</a></li>
+        </ul>
+    </header>
+
+    <div class="main-content">
+        <h1>Kalender</h1>
+        <div class="calendar">
+            <!-- Dagar i veckan -->
+            <div class="day-names">Måndag</div>
+            <div class="day-names">Tisdag</div>
+            <div class="day-names">Onsdag</div>
+            <div class="day-names">Torsdag</div>
+            <div class="day-names">Fredag</div>
+            <div class="day-names">Lördag</div>
+            <div class="day-names">Söndag</div>
+
+            <!-- Exempel på datumrutor -->
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+            <div>13</div>
+            <div>14</div>
+            <div>15</div>
+            <div>16</div>
+            <div>17</div>
+            <div>18</div>
+            <div>19</div>
+            <div>20</div>
+            <div>21</div>
+            <div>22</div>
+            <div>23</div>
+            <div>24</div>
+            <div>25</div>
+            <div>26</div>
+            <div>27</div>
+            <div>28</div>
+            <div>29</div>
+            <div>30</div>
+            <div>31</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gotlandsveckan 2013</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .image-gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .image-item {
+            margin: 20px 0;
+            border: 5px solid #333; /* Tydligare och markerad ram */
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2); /* Mer markerad skugga */
+            width: 100%;
+            max-width: 800px; /* Maximal bredd på 800px */
+            overflow: hidden;
+        }
+        .image-item img {
+            width: 100%;
+            height: auto;
+            max-height: 800px; /* Maximal höjd på 600px */
+            object-fit: cover;
+            border-bottom: 5px solid #333; /* Tydlig avgränsning mellan bild och bildtext */
+        }
+        .caption {
+            padding: 10px;
+            color: #555;
+            border-top: 5px solid #333; /* Ram runt bildtexten */
+            background-color: #f9f9f9;
+            font-size: 1.1em;
+        }
+        .back-link, .overview-link {
+            display: block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #333;
+            background-color: #ddd;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .back-link:hover, .overview-link:hover {
+            background-color: #bbb;
+        }
+        .overview-link {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a class="overview-link" href="gotlandsveckan.html">Tillbaka till översikten</a>
+    <div class="container">
+        <h1>Gotlandsveckan 2013</h1>
+        <div class="image-gallery">
+            <div class="image-item">
+                <img src="2013/img1.jpeg" alt="Bild 1">
+                <div class="caption">Robban grillar</div>
+            </div>
+            <div class="image-item">
+                <img src="2013/img2.jpg" alt="Bild 2">
+                <div class="caption">Diskgänget</div>
+            </div>
+            <div class="image-item">
+                <img src="2013/img3.jpeg" alt="Bild 3">
+                <div class="caption">Gruppbild</div>
+            </div>
+            <div class="image-item">
+                <img src="2013/img4.jpeg" alt="Bild 4">
+                <div class="caption">Vid kalkbrottet i Kyllaj</div>
+            </div>
+            <div class="image-item">
+                <img src="2013/img5.jpeg" alt="Bild 5">
+                <div class="caption">Musik framfördes</div>
+            </div>
+            <div class="image-item">
+                <img src="2013/img6.jpeg" alt="Bild 6">
+                <div class="caption">Vi cyklade</div>
+            </div>
+            <div class="image-item">
+                <img src="2013/img7.jpeg" alt="Bild 7">
+                <div class="caption">Lammracks</div>
+            </div>
+            <div class="image-item">
+                <img src="2013/img8.jpeg" alt="Bild 8">
+                <div class="caption">Strike a pose</div>
+            </div>
+            <div class="image-item">
+                <img src="2013/img9.jpeg" alt="Bild 9">
+                <div class="caption">Mossan & Totskan</div>
+            </div>
+            <div class="image-item">
+                <img src="2013/img10.jpeg" alt="Bild 10">
+                <div class="caption">Nattbad</div>
+            </div>
+        </div>
+        <a class="back-link" href="index.html">Tillbaka till startsidan</a>
+    </div>
+</body>
+</html>
